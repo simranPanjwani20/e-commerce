@@ -1,0 +1,10 @@
+.allCars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4%;
+    padding: 4%;
+}
+.main{
+    background-color: aliceblue;
+}

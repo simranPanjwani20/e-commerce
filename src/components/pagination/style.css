@@ -1,0 +1,23 @@
+.paginationBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    font-size: 1.5rem;
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.page-link{
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px;
+    width: 34px;
+    font-size: 15px;
+    margin: 0 6px;
+    border: none;
+}

@@ -1,0 +1,42 @@
+.sliderCar {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slidecar {
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slidecar img {
+    border-radius: 10px;
+    width: fit-content;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .slidecar.activecar {
+    opacity: 1;
+  }
+  .dotscar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dotcar {
+    width: 6px;
+    height: 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dotcar.activecar {
+    background-color: #db1091;
+  }
+  
